@@ -68,7 +68,7 @@ $ lerna create @mrjl/cli-shared-utils
   "version": "0.1.0",
   "description": "实用程序库",
   "keywords": [
-    "msb",
+    "mrjl",
     "utils"
   ],
   "author": "wusongbo <camelwu963@126.com>",
@@ -103,7 +103,7 @@ $ lerna create @mrjl/cli-shared-utils
 $ lerna add chalk
 ## 为@mrjl/cli-shared-utils 增加 semver 模块  
 lerna add semver --scope @mrjl/cli-shared-utils
-## 为 msb/cli 增加 @mrjl/cli-shared-utils 模块， 内部依赖
+## 为 mrjl/cli 增加 @mrjl/cli-shared-utils 模块， 内部依赖
 lerna add @mrjl/cli-shared-utils --scope @mrjl/cli
 ```
 #### Bootstrap 安装依赖:

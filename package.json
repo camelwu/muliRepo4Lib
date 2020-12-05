@@ -1,5 +1,5 @@
 {
-  "name": "msb-library",
+  "name": "multiple-repo-forjs-library",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "commit": "git-cz",
-    "bootstrap": "lerna bootstrap && lerna exec --scope @msb/utils -- yarn build && lerna link",
+    "bootstrap": "lerna bootstrap && lerna exec --scope @mrjl/utils -- yarn build && lerna link",
     "build": "node ./script/build.js",
     "buildAll": "node ./script/buildAll.js",
     "fix": "yarn lint --fix",
