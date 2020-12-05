@@ -1,5 +1,5 @@
 import { IuploadParams, IuploadReturn } from './types';
-import { platform as clientEnv, convertBase64UrlToBlob } from '@msb/utils';
+import { platform as clientEnv, convertBase64UrlToBlob } from '@mrjl/utils';
 
 import OSS from 'ali-oss';
 

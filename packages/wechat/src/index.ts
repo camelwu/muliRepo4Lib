@@ -2,7 +2,7 @@ import jssdkPay, { IjssdkPayParams } from './jssdk-pay';
 import miniprogramPay, {
   IminiprogramPayParams
 } from './miniprogram-pay';
-import { platform } from '@msb/utils';
+import { platform } from '@mrjl/utils';
 import jssdkLogin from './jssdk-login';
 
 const weixinPay = (params: IjssdkPayParams | IminiprogramPayParams) => {

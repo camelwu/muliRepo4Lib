@@ -1,6 +1,6 @@
 import { fabric } from 'fabric';
 import DrawContoll from './DrawController';
-import * as util from '@msb/utils';
+import * as util from '@mrjl/utils';
 import { DRAW_TYPE } from '../config/drawType';
 
 class CircleDrawController extends DrawContoll {

@@ -1,5 +1,5 @@
 {
-  "name": "@msb/board",
+  "name": "@mrjl/board",
   "version": "0.4.2",
   "description": "",
   "main": "lib/index.js",
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@msb/utils": "^0.5.0",
+    "@mrjl/utils": "^0.5.0",
     "@types/fabric": "^3.6.2",
     "@types/node": "^13.7.7",
     "fabric": "^3.6.2"

@@ -1,7 +1,7 @@
 /// <reference types="node" />
 import { fabric } from 'fabric';
 import { EventEmitter } from 'events';
-import * as util from '@msb/utils';
+import * as util from '@mrjl/utils';
 import Canvas from './canvas';
 import DRAW_TYPE from './config/drawType';
 import { IMouseDraw } from './MouseDraw';

@@ -1,6 +1,6 @@
 import DrawContoller from './DrawController';
 import { fabric } from "fabric";
-import * as util from '@msb/utils';
+import * as util from '@mrjl/utils';
 
 // eslint-disable-next-line no-undef
 // const { Color } = fabric;

@@ -1,7 +1,7 @@
 import { IFreeDrawController } from '../interface';
 import DrawContoller from './DrawController';
 
-import * as util from '@msb/utils';
+import * as util from '@mrjl/utils';
 import {DRAW_TYPE} from '../config/drawType';
 import {fabric} from 'fabric';
 

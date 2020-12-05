@@ -1,5 +1,5 @@
 /*!
- * @msb/utils v0.4.1
+ * @mrjl/utils v0.4.1
  * (c) wusongbo <wusongbo@meishubao.com>
  * Released under the ISC License.
  */

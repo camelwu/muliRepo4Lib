@@ -1,7 +1,7 @@
 import { EventEmitter } from 'events';
 import DRAW_TYPE, { checkDrawType } from './config/drawType';
 
-import * as util from '@msb/utils';
+import * as util from '@mrjl/utils';
 import FreeDrawController from './controllers/FreeDrawController';
 import CircleDrawController from './controllers/CircleDrawController';
 import DeleteDrawController from './controllers/DeleteDrawController';

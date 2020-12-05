@@ -1,4 +1,4 @@
-import {platform as client, loadScript} from '@msb/utils';
+import {platform as client, loadScript} from '@mrjl/utils';
 import generateOnebyoneServiceGroup from './onebyone';
 import generateSmallclassServiceGroup from './smallclass';
 import { UserStatus } from './types';

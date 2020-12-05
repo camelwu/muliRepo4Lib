@@ -1,4 +1,4 @@
-import { platform } from '@msb/utils';
+import { platform } from '@mrjl/utils';
 
 declare global {
 interface Window {

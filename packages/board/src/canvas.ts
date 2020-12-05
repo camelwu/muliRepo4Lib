@@ -1,6 +1,6 @@
 // import { ICanvas } from "./interface";
 import { fabric } from "fabric";
-import { getEle, getUId } from "@msb/utils";
+import { getEle, getUId } from "@mrjl/utils";
 // const fCanvas = fabric.Canvas;
 // console.log("fabric", fabric);
 type Option = {};

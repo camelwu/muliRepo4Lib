@@ -1,5 +1,5 @@
 import { UserStatus } from './types';
-import { platform } from '@msb/utils';
+import { platform } from '@mrjl/utils';
 const webchatGroupidConfig: { [key: string]: any } = {
   test: {
     vip: 'c391e14143704d6dab466627216074db',

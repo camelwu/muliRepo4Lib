@@ -1,5 +1,5 @@
 {
-  "name": "@msb/utils",
+  "name": "@mrjl/utils",
   "version": "0.5.0",
   "description": "给业务线的公用工具库",
   "keywords": [
@@ -7,7 +7,7 @@
     "utils"
   ],
   "author": "wusongbo <wusongbo@meishubao.com>",
-  "homepage": "http://gitlab.meishubao.com/msb-fe/msb-library",
+  "homepage": "https://www.github.com/msb-fe/msb-library",
   "license": "ISC",
   "main": "lib/index.js",
   "directories": {

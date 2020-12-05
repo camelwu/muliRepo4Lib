@@ -1,7 +1,7 @@
 import { fabric } from 'fabric';
 import { EventEmitter } from 'events';
 // import { ICanvas } from './interface';
-import * as util from '@msb/utils';
+import * as util from '@mrjl/utils';
 import config from './config/config';
 import Canvas from './canvas';
 import DRAW_TYPE, { checkDrawType, getFabricClass } from './config/drawType';

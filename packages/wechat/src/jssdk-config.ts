@@ -1,4 +1,4 @@
-import { loadScript } from '@msb/utils';
+import { loadScript } from '@mrjl/utils';
 
 export interface JssdkConfigParams {
   /**

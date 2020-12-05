@@ -1,4 +1,4 @@
-import { platform as clientEnv } from '@msb/utils';
+import { platform as clientEnv } from '@mrjl/utils';
 import { IuploadParams } from './types';
 
 /**
