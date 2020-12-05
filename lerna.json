@@ -13,7 +13,7 @@
       "conventionalCommits": true,
       "ignoreChanges": ["ignored-file", "*.md"],
       "message": "chore(release): publish",
-      "registry": "http://fusion.meishubao.com:9001/"
+      "registry": "https://www.npmjs.com/"
     }
   }
 }
