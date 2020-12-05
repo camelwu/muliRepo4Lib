@@ -1,0 +1,36 @@
+import BaseIM from './BaseIM';
+import IM_TYPE from './config/IM_TYPE';
+declare class RTMClient extends BaseIM {
+    private opts;
+    static __TYPE: typeof IM_TYPE;
+    appId: string;
+    channels: {};
+    client: any;
+    messageQuene: any[];
+    private msgInterval;
+    private prevSendTime;
+    connectStatus: number;
+    private defaultToken?;
+    private defaultGroupId?;
+    userId?: string;
+    constructor(options: any);
+    get imType(): typeof IM_TYPE;
+    init(): void;
+    subscribeClientEvents(): void;
+    subscribeChannelEvents(chatRoomId: any): void;
+    connect(userId: any, token: any): any;
+    reconnect(): void;
+    _connectError(errorCode: any): string;
+    login(userId: any, token?: null): any;
+    logout(): any;
+    _createChannel(chatRoomId: any): any;
+    joinChatRoom(opts: any): any;
+    leaveChatRoom(opts: any): void;
+    sendSingleMsg(options: any): void;
+    sendChatMsg(options: any): void;
+    _sendMessage(msgInfo: any): void;
+    _doSend(): void;
+    queryPeersOnlineStatus(memberId: any): Promise<any>;
+    destory(): any;
+}
+export default RTMClient;

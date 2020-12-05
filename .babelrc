@@ -1,0 +1,22 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage",
+        "loose": true,
+        "corejs": "^3.1.4",
+      }
+    ]
+  ],
+  "plugins": [
+    ["filter-imports", {
+      "imports": {
+        "./dist/index": "*"
+      }
+    }],
+    ["@babel/plugin-transform-modules-commonjs", {
+      "allowTopLevelThis": true
+    }]
+  ]
+}

@@ -1,0 +1,36 @@
+type callback = () => void;
+// type forCallback = (v: any, i: number) => void;
+export interface ICanvas extends fabric.Canvas {
+    viewportTransform: any;
+    freeDrawingBrush: any;
+    clipPath: any;
+    ele: Element | string;
+    skipTargetFind: boolean;
+    selection: boolean;
+    isDrawingMode: boolean;
+    selectable?: boolean;
+    // setBackgroundColor: (color: string) => void;
+    // setWidth: (width: number) => void;
+    // setHeight: (height: number) => void;
+    // setZoom: (level: number) => void;
+    // discardActiveObject: (evt: any) => void;
+    // requestRenderAll: () => void;
+    // forEachObject: (forCallback) => {};
+    // add: (obj: any) => {};
+    // insertAt: (obj: any, index: number, isReplace: boolean) => void;
+    // renderAll: () => {};
+    // dispose: () => void;
+    destory: (callback) => void;
+    // setOverlayColor: (color: string) => void;
+    // remove: (obj: any) => void;
+    // item: (index: number) => void;
+    // getObjects: (type: string) => void;
+    // loadFromDatalessJSON: (obj: any, renderall: any) => void;
+    // clear: () => void;
+    // clearContext: () => void;
+    // getContext: () => any;
+    // getActiveObjects: () => any;
+    // drawClipPathOnCanvas: (context: any) => void;
+    // on: (eventName: string, callback) => void;
+    // off: (eventName: string, callback) => void;
+}

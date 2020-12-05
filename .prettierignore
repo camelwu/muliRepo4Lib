@@ -1,0 +1,5 @@
+package.json
+example/
+packages/**/package.json
+packages/**/docs/
+packages/**/lib/

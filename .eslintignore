@@ -1,0 +1,9 @@
+
+**/*.json
+example/**/*.js
+example/**/*.json
+library/*.js
+packages/**/*.json
+packages/**/docs/*
+
+packages/**/lib/*

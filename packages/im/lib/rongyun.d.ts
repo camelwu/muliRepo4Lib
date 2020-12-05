@@ -1,0 +1,35 @@
+import { EventEmitter } from 'events';
+import '../dist/protobuf-2.3.5.min.js';
+import '../dist/RongEmoji-2.2.7.js';
+import '../dist/RongIMLib-2.5.0.js';
+declare class RongYunClient extends EventEmitter {
+    private opts;
+    private appKey;
+    private messageQuene;
+    private msgInterval;
+    private connectionState;
+    defaultGroupId?: string;
+    static messageType: any;
+    static ConversationType: any;
+    static __TYPE: number;
+    constructor(options: any);
+    get imType(): number;
+    init(): void;
+    _bindEvent(): void;
+    _connectError(errorCode: any): string;
+    joinChatRoom(opts: any): void;
+    leaveChatRoom(opts: any): void;
+    getChatRoomInfo(opts: any): void;
+    connect(token: any): void;
+    reconnect(): void;
+    registerBoardMsgType(): void;
+    _doSend(): void;
+    _sendMessage(msgInfo: any): void;
+    sendGroup(options: any): Promise<unknown>;
+    sendChat(options: any): Promise<unknown>;
+    send(options: any): void;
+    sendGroupMsg(options: any): void;
+    sendChatMsg(options: any): void;
+    destory(): void;
+}
+export default RongYunClient;

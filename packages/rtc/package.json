@@ -1,0 +1,21 @@
+{
+  "name": "@msb/rtc",
+  "version": "0.1.1",
+  "description": "完全适配sdk难度系数很大，流程和对象都不同。 agora和trtc 有client和stream zego没有client和stream，可以强行赋值； 但agora与trtc的参数和回掉方法，zego即便重写，都存在回掉方法不同的问题； 业务层面就无法实现直接切换参数即可。所以，第一方案，写部分业务是最适合的。",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/agora-rtc-sdk": "^3.0.0",
+    "@types/node": "^13.7.7",
+    "agora-rtc-sdk": "^3.0.2",
+    "trtc-js-sdk": "^4.3.10",
+    "webrtc-zego": "^1.6.0"
+  }
+}

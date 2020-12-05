@@ -1,0 +1,32 @@
+{
+  "name": "@msb/utils",
+  "version": "0.5.0",
+  "description": "给业务线的公用工具库",
+  "keywords": [
+    "msb",
+    "utils"
+  ],
+  "author": "wusongbo <wusongbo@meishubao.com>",
+  "homepage": "http://gitlab.meishubao.com/msb-fe/msb-library",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://fusion.meishubao.com:9001/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.meishubao.com:msb-fe/msb-library.git"
+  },
+  "scripts": {
+    "buildLib": "node ./scripts/build.js",
+    "buildDoc": "typedoc --ignoreCompilerErrors --excludeNotExported --excludePrivate --excludeProtected --out docs --mode file src/index.ts",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
