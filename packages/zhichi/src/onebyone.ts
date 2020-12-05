@@ -13,7 +13,7 @@ const webchatGroupidConfig: { [key: string]: any } = {
   }
 };
 const isonline: boolean =
-  !platform.miniprogram && window.location.hostname === 'vip.meishubao.com';
+  !platform.miniprogram && window.location.hostname === 'vip.youdomain.com';
 
 export default function generateServiceGroup(
   userStatus: UserStatus,

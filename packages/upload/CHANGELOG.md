@@ -3,12 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.2.2](https://www.github.com/msb-fe/msb-library/compare/@mrjl/upload@0.2.1...@mrjl/upload@0.2.2) (2020-04-14)
+## [0.2.2](https://github.com/camelwu/muliRepo4Lib/compare/@mrjl/upload@0.2.1...@mrjl/upload@0.2.2) (2020-04-14)
 
 
 ### Bug Fixes
 
-* jira task-id 我做了什么事 ([a90576c](https://www.github.com/msb-fe/msb-library/commit/a90576c25821f7d86c393eaa13f0bd69b4aee1b9))
+* jira task-id 我做了什么事 ([a90576c](https://github.com/camelwu/muliRepo4Lib/commit/a90576c25821f7d86c393eaa13f0bd69b4aee1b9))
 
 
 

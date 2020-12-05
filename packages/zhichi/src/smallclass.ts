@@ -15,7 +15,7 @@ import { UserStatus } from './types';
 // sysnum 15f8f7e3ff534554a8478e4b4c5576cd
 
 // groupid 86a6fdd8d34147a7b06881665821dee9
-// const isonline: boolean = window.location.hostname === 'vip.meishubao.com';
+// const isonline: boolean = window.location.hostname === 'vip.youdomain.com';
 
 export default function generateServiceGroup(
   userStatus: UserStatus,

@@ -1,6 +1,6 @@
 /*!
  * @mrjl/utils v0.4.1
- * (c) wusongbo <wusongbo@meishubao.com>
+ * (c) wusongbo <camelwu963@126.com>
  * Released under the ISC License.
  */
 'use strict';
@@ -2081,7 +2081,7 @@ var platform = {
   miniprogram: typeof wx !== 'undefined' && typeof wx.getSystemInfo !== 'undefined',
 
   /**
-   * 是否为美术宝一对一app
+   * 是否为一对一app
    */
   msb1v1app: typeof navigator !== 'undefined' && typeof uaParsed.ua !== 'undefined' && (uaParsed.ua.includes('ydy') || uaParsed.ua.includes('vwb'))
 };

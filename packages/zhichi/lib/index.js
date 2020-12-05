@@ -98,7 +98,7 @@ const platform = {
   miniprogram: typeof wx !== 'undefined' && typeof wx.getSystemInfo !== 'undefined',
 
   /**
-   * 是否为美术宝一对一app
+   * 是否为一对一app
    */
   msb1v1app: typeof navigator !== 'undefined' && typeof uaParsed.ua !== 'undefined' && (uaParsed.ua.includes('ydy') || uaParsed.ua.includes('vwb'))
 };
@@ -115,7 +115,7 @@ const webchatGroupidConfig = {
         noUser: '90028686d3074163a84e933b5c144113'
     }
 };
-const isonline = !platform.miniprogram && window.location.hostname === 'vip.meishubao.com';
+const isonline = !platform.miniprogram && window.location.hostname === 'vip.youdomain.com';
 function generateServiceGroup(userStatus, env) {
     const currentEnv = env ? env : isonline ? 'online' : 'test';
     const groupid = webchatGroupidConfig[currentEnv][userStatus];
@@ -138,7 +138,7 @@ function generateServiceGroup(userStatus, env) {
 // };
 // sysnum 15f8f7e3ff534554a8478e4b4c5576cd
 // groupid 86a6fdd8d34147a7b06881665821dee9
-// const isonline: boolean = window.location.hostname === 'vip.meishubao.com';
+// const isonline: boolean = window.location.hostname === 'vip.youdomain.com';
 function generateServiceGroup$1(userStatus, env) {
     // const env: string = isonline ? 'online' : 'test';
     // const groupid: string = webchatGroupidConfig[env][userStatus];

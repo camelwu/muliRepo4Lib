@@ -37,8 +37,8 @@ const uploadFile = function(params: IuploadParams) {
       .then(function(result: any) {
         const imgUrl = result.res.requestUrls[0].split('?')[0];
         const returnUrl = imgUrl.replace(
-          /one-by-one.oss-cn-hangzhou.aliyuncs/g,
-          'imgvip.meishubao'
+          /oss-cn-hangzhou.aliyuncs/g,
+          'imgvip'
         );
         resolve({
           url: returnUrl

@@ -1181,7 +1181,7 @@ export declare const platform: {
      */
     miniprogram: boolean;
     /**
-     * 是否为美术宝一对一app
+     * 是否为一对一app
      */
     msb1v1app: boolean;
 };

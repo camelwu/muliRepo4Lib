@@ -6,8 +6,8 @@
     "msb",
     "utils"
   ],
-  "author": "wusongbo <wusongbo@meishubao.com>",
-  "homepage": "https://www.github.com/msb-fe/msb-library",
+  "author": "wusongbo <camelwu963@126.com>",
+  "homepage": "https://github.com/camelwu/muliRepo4Lib",
   "license": "ISC",
   "main": "lib/index.js",
   "directories": {
@@ -18,11 +18,11 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://fusion.meishubao.com:9001/"
+    "registry": "https://www.npmjs.com/"
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.meishubao.com:msb-fe/msb-library.git"
+    "url": "https://github.com/camelwu/muliRepo4Lib.git"
   },
   "scripts": {
     "buildLib": "node ./scripts/build.js",

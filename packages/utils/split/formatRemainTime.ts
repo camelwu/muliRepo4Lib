@@ -377,7 +377,7 @@ export const platform =  {
      */
     miniprogram: typeof wx !== 'undefined' && typeof wx.getSystemInfo !== 'undefined',
     /**
-     * 是否为美术宝一对一app
+     * 是否为一对一app
      */
     msb1v1app:
         typeof navigator !== 'undefined' &&
